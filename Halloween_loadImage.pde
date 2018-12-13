@@ -1,10 +1,10 @@
 //Click and Drag your cursor to "carve" the pumpkins
-/* @pjs preload="apple.png"; */
+/* @pjs preload="apple.png.jpg"; */
 PImage img;
 
 void setup() {
   size(500, 400);
-  img = loadImage("apple.jpg");
+  img = loadImage("apple.png.jpg");
   image(img,0,0,width,height);
 }
 
