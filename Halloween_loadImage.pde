@@ -10,14 +10,14 @@ void setup() {
 
 void draw() 
 {
-  save("IVAN.Apple.png");
+  //save("IVAN.Apple.png");
 }
 
 void mouseDragged()
 {
   //"Carves" the pumpkins
   //blendMode optional, might be problematic with a light or white background
-  blendMode(OVERLAY); 
+  //blendMode(OVERLAY); 
   noStroke();
   fill(255);
   ellipse(mouseX, mouseY,10,10);
